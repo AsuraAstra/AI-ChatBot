@@ -1,0 +1,76 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","how are you", "how is your day", "how is it going", "how are you doing"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","I'm doing great, thank you for asking", "I'm doing fine, and you?", "Pretty well, thanks for asking"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "hours",
+    "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+    "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {"tag": "payments",
+    "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+    "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "opentoday",
+    "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Chatbot.", "I'm Chatbot!", "I'm Chatbot, nice to meet you."]
+    },
+    {"tag": "help",
+    "patterns": ["help me", "what can you do for me", "can you help", "what are you here for"],
+    "responses": ["I can help you with your problems", "I can help you with your problems", "I can help you with your problems"]
+    },
+    {"tag": "problem",
+    "patterns": ["I have a problem", "this is a problem", "my problem is"],
+    "responses": ["Tell me more about your problem", "I'm sorry to hear you are having problems"]
+    },
+    {"tag": "age",
+    "patterns": ["how old are you", "what is your age", "how old"],
+    "responses": ["I'm 18 years old"]
+    },
+    {"tag": "date",
+    "patterns": ["what is the date today", "what date is it today", "what is today's date"],
+    "responses": ["Today is the 6th of July", "It is the 6th of July today"]
+    },
+    {"tag": "time",
+    "patterns": ["what is the time", "what time is it", "what is the time now"],
+    "responses": ["I can't tell you the time, but it must be your college hours right now"]
+    },
+    {"tag": "weather",
+    "patterns": ["what is the weather today", "what is the weather like today", "what is the weather"],
+    "responses": ["It is a sunny day today", "It is a sunny day today"]
+    },
+    {"tag": "college",
+    "patterns": ["what is your college", "what is your college name", "what is your college's name"],
+    "responses": ["My college is SSipmt", "I study in SSIPMT"]
+    },
+    {"tag": "developer",
+    "patterns": ["who is your developer", "who made you", "who is your creator"],
+    "responses": ["My developers are Priyanshu, Vedant $ Yogesh", "Priyanshu, Vedant $ Yogesh are my developers"]
+    },
+    {"tag": "bot",
+    "patterns": ["what is a bot", "what is a chatbot", "what is a chat bot"],
+    "responses": ["A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent."]
+    },
+    {"tag": "mentor",
+    "patterns": ["who is your mentor", "who is your teacher", "who is your guide", "who is your instructor", "who is project guide"],
+    "responses": ["Our Project guide is Mr. Devbrat Sahu", "Mr. Devbrat Sahu is our guide"]
+    },
+    {"tag": "joke",
+    "patterns": ["tell me a joke", "say something funny", "tell me something funny"],
+    "responses": ["What do you call a belt made out of watches? A waist of time.", "What do you call a bear with no teeth? A gummy bear."]
+    }
+    
+] }
+
